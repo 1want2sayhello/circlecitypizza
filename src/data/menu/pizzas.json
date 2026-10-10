@@ -1,0 +1,50 @@
+[
+  {
+    "image": "/thumbnails/food/pizzas/dolce-fuoco.webp",
+    "title": "Dolce Fuoco",
+    "category": "signature",
+    "description": "Spicy soppressata, Calabrian chile, fior di latte, and a hot honey drizzle."
+  },
+  {
+    "image": "/thumbnails/food/pizzas/pear-prosciutto.webp",
+    "title": "Pera Piccante",
+    "category": "signature",
+    "description": "Sweet pear, savory prosciutto, creamy mozzarella, and hot honey."
+  },
+  {
+    "image": "/thumbnails/food/pizzas/the-works.webp",
+    "title": "The Works",
+    "category": "regular",
+    "description": "Pepperoni, Italian sausage, bell peppers, red onion, mushrooms, and banana peppers."
+  },
+  {
+    "image": "/thumbnails/food/pizzas/margherita.webp",
+    "title": "Margherita",
+    "category": "signature",
+    "description": "San Marzano tomato sauce, fresh mozzarella, basil, and extra virgin olive oil."
+  },
+  {
+    "image": "/thumbnails/food/pizzas/capriccosa.webp",
+    "title": "Capricciosa",
+    "category": "regular",
+    "description": "Italian ham, artichoke hearts, mushrooms, black olives, and mozzarella."
+  },
+  {
+    "image": "/thumbnails/food/pizzas/meat-mania.webp",
+    "title": "Meat Mania",
+    "category": "regular",
+    "description": "Pepperoni, Italian sausage, bacon, ham, and mozzarella over rich tomato sauce."
+  },
+  {
+    "image": "/thumbnails/food/pizzas/vodka-rosa.webp",
+    "title": "Vodka Rosa",
+    "category": "signature",
+    "description": "Creamy tomato vodka sauce, fresh mozzarella, parmesan, basil, and a touch of chili."
+  },
+  {
+    "image": "/thumbnails/food/pizzas/pepperoni.webp",
+    "title": "Cupped Pepperoni",
+    "category": "regular",
+    "description": "Crispy cupped pepperoni, melted mozzarella, tomato sauce, and fresh basil."
+  }
+]

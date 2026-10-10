@@ -1,0 +1,38 @@
+[
+  {
+    "image": "/thumbnails/food/wings/balsamic-rosemary.webp",
+    "category": "showcase",
+    "title": "Balsamic Rosemary",
+    "description": "Crispy wings tossed in a tangy balsamic glaze with aromatic rosemary."
+  },
+  {
+    "image": "/thumbnails/food/wings/lemon-pepper-pecorino.webp",
+    "category": "showcase",
+    "title": "Lemon Pepper Pecorino",
+    "description": "Zesty lemon pepper wings finished with freshly grated Pecorino Romano."
+  },
+  {
+    "image": "/thumbnails/food/wings/calabrian-chili.webp",
+    "category": "showcase",
+    "title": "Calabrian Garlic",
+    "description": "Bold Calabrian chile, roasted garlic, and a buttery, spicy glaze."
+  },
+  {
+    "image": "/thumbnails/food/wings/honey-habenero.webp",
+    "category": "regular",
+    "title": "Habanero Honey",
+    "description": "Sweet honey glaze with fiery habanero heat and a lingering kick."
+  },
+  {
+    "image": "/thumbnails/food/wings/bbq.webp",
+    "category": "regular",
+    "title": "Sweet BBQ",
+    "description": "Smoky, sweet barbecue sauce coating every crispy wing."
+  },
+  {
+    "image": "/thumbnails/food/wings/buffalo.webp",
+    "category": "regular",
+    "title": "Buffalo",
+    "description": "Classic Buffalo wings tossed in a buttery, tangy hot sauce."
+  }
+]

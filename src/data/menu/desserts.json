@@ -1,0 +1,17 @@
+[
+  {
+    "image": "desserts/tiramisu.webp",
+    "title": "Tiramisu",
+    "description": "Layers of espresso-soaked ladyfingers and mascarpone cream, finished with cocoa and caramel."
+  },
+  {
+    "image": "desserts/limoncello-gelato.webp",
+    "title": "Limoncello Gelato",
+    "description": "Smooth, refreshing lemon gelato with bright citrus flavor and a delicate sweetness."
+  },
+  {
+    "image": "desserts/classic-cannoli.webp",
+    "title": "Classic Cannoli",
+    "description": "Crisp pastry shells filled with sweet ricotta cream and finished with chocolate chips."
+  }
+]

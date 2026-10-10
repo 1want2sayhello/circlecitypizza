@@ -1,0 +1,25 @@
+[
+  {
+    "image": "/thumbnails/food/sides/garlic-knots.webp",
+    "category": "showcase",
+    "title": "Stuffed Garlic Knots",
+    "description": "Golden garlic knots stuffed with mozzarella, brushed with garlic butter, and served with marinara."
+  },
+  {
+    "image": "/thumbnails/food/sides/breadsticks.webp",
+    "title": "Authentic Breadsticks",
+    "description": "Freshly baked breadsticks brushed with garlic butter and sprinkled with parmesan."
+  },
+  {
+    "image": "/thumbnails/food/sides/parm-fries.webp",
+    "category": "showcase",
+    "title": "Loaded Parm Fries",
+    "description": "Crispy golden fries tossed with parmesan, garlic, fresh herbs, and a creamy house sauce."
+  },
+  {
+    "image": "/thumbnails/food/sides/bruschetta.webp",
+    "category": "showcase",
+    "title": "Bruschetta",
+    "description": "Crispy golden fries tossed with parmesan, garlic, fresh herbs, and a creamy house sauce."
+  }
+]

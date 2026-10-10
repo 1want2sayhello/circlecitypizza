@@ -2,10 +2,7 @@ import Card from "../../../../components/Card/Card";
 import hero from "../../../../assets/images/bruschetta-hero.webp";
 import accent from "../../../../assets/graphics/header-accent.png";
 
-import dolceFuoco from "../../../../assets/thumbnails/food/pizzas/dolce-fuoco.webp";
-import margherita from "../../../../assets/thumbnails/food/pizzas/margherita.webp";
-import peraPiccante from "../../../../assets/thumbnails/food/pizzas/pear-prosciutto.webp";
-import vodkaRosa from "../../../../assets/thumbnails/food/pizzas/vodka-rosa.webp";
+import pizzas from "../../../../data/menu/pizzas.json";
 import styles from "./Intro.module.scss";
 
 const Intro = () => {
@@ -36,34 +33,15 @@ const Intro = () => {
         </span>
 
         <div className={styles.pizzaGrid}>
-          <Card
-            title={"Margherita"}
-            image={margherita}
-            description={
-              "San Marzano tomato, fior di latte,fresh basil & extra virgin olive oil."
-            }
-          />
-          <Card
-            title={"Dolce Fuoco"}
-            image={dolceFuoco}
-            description={
-              "Spicy soppressata, Calabrian chile, fior di latte & a hot honey drizzle"
-            }
-          />
-          <Card
-            title={"Pera Piccante"}
-            image={peraPiccante}
-            description={
-              "Pear, prosciutto, gorgonzola, toasted walnuts, fior di latte, chili flake & hot honey."
-            }
-          />
-          <Card
-            title={"Vodka Rosa"}
-            image={vodkaRosa}
-            description={
-              "Creamy vodka sauce, fior di latte, fresh basil & a sprinkle of Parmigiano Reggiano"
-            }
-          />
+          {pizzas
+            .filter((pizza) => pizza.category === "signature")
+            .map((pizza) => (
+              <Card
+                title={pizza.title}
+                image={pizza.image}
+                description={pizza.description}
+              />
+            ))}
         </div>
       </div>
     </section>

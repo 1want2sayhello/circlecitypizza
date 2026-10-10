@@ -1,0 +1,29 @@
+{
+  "pizzas": {
+    "small": 11.99,
+    "large": 17.99
+  },
+  "upscaleWings": {
+    "6pc": 6.99,
+    "10pc": 8.99
+  },
+  "traditionalWings": {
+    "boneIn": {
+      "6pc": 6.99,
+      "10pc": 8.99
+    },
+    "boneless": {
+      "6pc": 8.99,
+      "10pc": 10.99
+    }
+  },
+  "sides": {
+    "small": 6.99,
+    "large": 8.99
+  },
+  "salads": {
+    "regular": 5.99,
+    "addChicken": 1.5
+  },
+  "desserts": 10.99
+}

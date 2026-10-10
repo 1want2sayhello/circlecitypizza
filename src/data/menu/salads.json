@@ -1,0 +1,12 @@
+[
+  {
+    "image": "/thumbnails/food/salads/mediterranean.webp",
+    "title": "Mediterranean",
+    "description": "Mixed greens, cucumber, cherry tomatoes, Kalamata olives, red onion, and feta with lemon vinaigrette."
+  },
+  {
+    "image": "/thumbnails/food/salads/lemon-caesar.webp",
+    "title": "Lemon Caesar",
+    "description": "Crisp romaine, shaved parmesan, house croutons, and a bright lemon Caesar dressing."
+  }
+]
