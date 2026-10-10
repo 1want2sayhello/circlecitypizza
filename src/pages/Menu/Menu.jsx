@@ -1,8 +1,9 @@
+import Hero from "./components/Hero/Hero";
+import styles from "./Menu.module.scss";
 const Menu = () => {
   return (
-    <section className="component-name">
-      <h2>Menu</h2>
-      <p>Component content</p>
+    <section className={styles.menu}>
+      <Hero />
     </section>
   );
 };
