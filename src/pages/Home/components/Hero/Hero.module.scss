@@ -1,0 +1,125 @@
+@use "../../../../styles/variables" as *;
+@use "../../../../styles/mixins" as *;
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $crimson;
+  z-index: 1;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../../../assets/images/hero.webp");
+  background-repeat: no-repeat;
+  background-size: 112%;
+  background-position: center 10%;
+  opacity: 0.3;
+  z-index: -2;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, $crimson 0%, transparent 75%);
+  z-index: -1;
+}
+
+.content {
+  min-width: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+  color: $white;
+  margin-top: calc($nav-height - 6%);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header h1 {
+  font-family: $cinzel;
+  font-weight: 500;
+  font-size: 6rem;
+  margin: 0;
+  line-height: 0.875;
+}
+
+.content p {
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.buttons {
+  width: 100%;
+  min-height: 100px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cta {
+  @include button;
+  height: 80px;
+  width: 200px;
+  font-size: clamp(1rem, 1.2vw, 1.2rem);
+  transition: 0.2s background-color ease-in-out;
+}
+
+.cta:hover {
+  background-color: $crimson;
+}
+
+.primary {
+  color: $red;
+  background-color: $white;
+  border: 2px solid $red;
+  transition: 0.2s background-color ease-in-out;
+}
+
+.primary:hover {
+  color: $white;
+  border: 2px solid $white;
+}
+
+.secondary {
+  color: $white;
+  background-color: $red;
+  border: 2px solid $white;
+}
+
+.bar {
+  @include bar;
+  background-color: $red;
+  position: absolute;
+  bottom: 0;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  font-family: $cinzel;
+  color: $white;
+}
+
+.bar h4 {
+  text-align: center;
+  margin: 0;
+  font-weight: 300;
+}

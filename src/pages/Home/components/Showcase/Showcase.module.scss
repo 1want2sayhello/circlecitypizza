@@ -1,0 +1,44 @@
+@use "../../../../styles/variables" as *;
+@use "../../../../styles/mixins" as *;
+
+.showcase {
+  width: 100%;
+  height: auto;
+}
+
+.showcase span h2 {
+  font-family: $cinzel;
+  color: $white;
+  font-weight: 400;
+  font-size: clamp(1.4rem, 4vw, 3rem);
+  padding: 2rem;
+  margin-bottom: 1.2rem;
+  opacity: 0.875;
+}
+
+.grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  padding: 1.2rem;
+}
+
+.top {
+  width: 100%;
+  min-height: 225px;
+  background-color: $crimson;
+}
+
+.bottom {
+  width: 100%;
+  min-height: 400px;
+  position: relative;
+  background-color: $brown;
+}
+
+.bottom .bottomTag {
+  position: absolute;
+  bottom: -40px;
+  right: 10px;
+}

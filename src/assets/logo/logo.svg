@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 24.63px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #ebedea;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        stroke-width: 11.85px;
+      }
+
+      .cls-3 {
+        fill: #bf1e0f;
+      }
+
+      .cls-4 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+
+      .cls-8 {
+        letter-spacing: .04em;
+      }
+
+      .cls-9 {
+        fill: #c7c7c7;
+        filter: url(#drop-shadow-1);
+        font-family: Cinzel-ExtraBold, Cinzel;
+        font-size: 42px;
+        font-weight: 700;
+      }
+    </style>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="4"/>
+      <feGaussianBlur result="blur" stdDeviation="5"/>
+      <feFlood flood-color="#1c1c1c" flood-opacity=".43"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <circle class="cls-1" cx="250" cy="250" r="207.53"/>
+  <circle class="cls-2" cx="250" cy="250" r="122.94"/>
+  <g>
+    <rect class="cls-3" x="0" y="207.26" width="500" height="85.48"/>
+    <text class="cls-9" transform="translate(36.67 264.81)"><tspan class="cls-5" x="0" y="0">C</tspan><tspan x="32.89" y="0">I</tspan><tspan class="cls-4" x="49.77" y="0">R</tspan><tspan class="cls-5" x="81.06" y="0">C</tspan><tspan class="cls-7" x="113.94" y="0">L</tspan><tspan x="140.45" y="0">E </tspan><tspan class="cls-5" x="178.2" y="0">C</tspan><tspan x="211.09" y="0">I</tspan><tspan class="cls-8" x="227.97" y="0">T</tspan><tspan x="258.3" y="0">Y </tspan><tspan class="cls-6" x="298.87" y="0">P</tspan><tspan x="327.43" y="0">IZZA</tspan></text>
+  </g>
+</svg>

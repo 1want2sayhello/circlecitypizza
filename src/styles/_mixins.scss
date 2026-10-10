@@ -1,0 +1,18 @@
+@use "./variables" as *;
+
+//universal button styles
+@mixin button {
+  border-radius: 30px;
+  font-family: $cinzel;
+  font-weight: 400;
+  border-color: inherit;
+  text-align: center;
+}
+
+//defined bar styles
+
+@mixin bar {
+  width: 100%;
+  height: 70px;
+  background-color: $brown;
+}

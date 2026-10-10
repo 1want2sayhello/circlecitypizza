@@ -1,0 +1,120 @@
+@use "../../../../styles/variables" as *;
+@use "../../../../styles/mixins" as *;
+
+.locations {
+  width: 100%;
+  min-height: 600px;
+  background-color: $crimson;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  width: 100%;
+  min-height: 560px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.content h2 {
+  color: $white;
+  font-family: $cinzel;
+  font-weight: 400;
+  font-size: clamp(1.6rem, 2.2vw, 2rem);
+  padding: 1.2rem;
+  margin-top: 1rem;
+}
+
+.content .divider {
+  width: 90%;
+  height: 0.5px;
+  background-color: $white;
+}
+
+.content .location {
+  width: 90%;
+  height: 50%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.content .right {
+  text-align: right;
+  justify-content: right;
+}
+
+.content .left {
+  text-align: left;
+  justify-content: left;
+}
+
+.content .info {
+  color: $white;
+}
+
+.content .info h3 {
+  font-family: $cinzel;
+  font-size: clamp(1.2rem, 2vw, 2rem);
+  font-weight: 600;
+}
+
+.content .info span {
+  font-family: $lora;
+  font-size: clamp(1rem, 1.2vw, 1.6rem);
+}
+
+.image {
+  width: clamp(320px, 3vw, 420px);
+  height: clamp(160px, 3vh, 220px);
+  border-radius: 20px;
+  border: 4px solid $brown;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  object-fit: cover;
+  display: block;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin-top: 1.2rem;
+}
+
+.buttons .cta {
+  @include button;
+  background-color: $white;
+  color: $red;
+  border: 2px solid $crimson;
+  width: 140px;
+  height: 50px;
+  border-radius: 16px;
+}
+
+.bar {
+  @include bar;
+}
+
+/** MOBILE STYLING **/
+@media (max-width: 768px) {
+  .content .location {
+    flex-direction: column;
+  }
+
+  .image {
+    margin: 1.2rem;
+  }
+}
